@@ -4,6 +4,11 @@ on:
     branches:
       - main
 
+env:
+  NODE_VERSION: '16'
+  TURBO_TEAM: k6
+  TURBO_TOKEN: orXUG7C0upy1PfeztANQZEBp
+
 permissions:
   contents: read
 jobs:
