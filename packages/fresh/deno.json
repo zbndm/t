@@ -1,0 +1,12 @@
+{
+  "tasks": {
+  	"dd": "deployctl deploy --prod  --import-map=import_map.json  --project=cce ./main.ts --token ddp_U74pqy9yTb8Ox4I7U51mec4eFt5Eaw22hwwm",
+  		"d": "deployctl deploy --prod  --import-map=import_map.json  --project=wvh ./main.ts --token ddp_XqsZWAxN7v8npLwvJnhuT3scg7PAiw15SJtG",
+    "start": "deno run -A --watch=static/,routes/ dev.ts"
+  },
+  "importMap": "./import_map.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  }
+}
