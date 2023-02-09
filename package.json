@@ -15,10 +15,10 @@
     "release": "turbo run build --filter=docs^... && changeset publish"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.22.0",
-    "eslint": "^7.32.0",
+    "@changesets/cli": "latest",
+    "eslint": "latest",
     "eslint-config-acme": "workspace:*",
-    "prettier": "^2.5.1",
+    "prettier": "latest",
     "turbo": "latest"
   },
   "packageManager": "pnpm@7.15.0"
